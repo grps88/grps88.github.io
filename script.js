@@ -18,12 +18,6 @@ function updateClock() {
   minutes = (minutes < 10 ? "0" : "") + minutes;
   seconds = (seconds < 10 ? "0" : "") + seconds;
 
-  var timeOfDay = (hours < 12) ? "AM" : "PM";
-
-  hours = (hours > 12) ? hours - 12 : hours;
-
-  hours = (hours == 0) ? 12 : hours;
-
   var currentTimeString = 'Jest godzina ' + hours +  ":" + minutes + ":" + seconds;
 
   document.getElementById("clock").innerText = currentTimeString;
