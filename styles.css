@@ -161,6 +161,10 @@ button:hover {
   transform: scale(1.1);
 }
 
+p {
+  display: block;
+}
+
 .foot-contact {
   text-align: center;
   padding-top: 30px;
@@ -186,4 +190,23 @@ hr {
   height: 5px;
   background-color: #333b33;
   margin: 20px -50px 50px;
+}
+
+#work-display {
+  padding-top: 50px;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#work-display embed {
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
