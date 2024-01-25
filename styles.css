@@ -194,7 +194,7 @@ hr {
 
 #work-display {
   padding-top: 50px;
-  width: 100%;
+  width: auto;
   height: 500px;
   margin: 0 auto; 
   display: flex;
